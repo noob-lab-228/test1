@@ -38,17 +38,17 @@ Classes:
 * .timer
 
 
-[Unit]
+## [Unit]
 Description=Мой кастомный Python скрипт
 After=network.target
 
-[Service]
+## [Service]
 Type=simple
 ExecStart=/usr/bin/python3 /home/zxc/Desktop/my_script.py
 Restart=always
 User=zxc
 
-[Install]
+## [Install]
 WantedBy=multi-user.target
 
 
