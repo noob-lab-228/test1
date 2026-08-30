@@ -1,14 +1,14 @@
-#First project
+# First project
 
 This is just test repository *Git* and **Github**
 
-##Learn
+## Learn
 * Create
 * Commit
 * Add
 * Merge
 
-##Command
+## Command
 ```bash
 git init
 git status
