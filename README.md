@@ -94,6 +94,7 @@ sudo choom -n -1000 python3 /home/zxc/Desktop/time_logger.py
 
 ```bash
 sudo dmesg -T | grep -i -E 'oom|kill'
+```
 
 # /proc
 
@@ -105,3 +106,7 @@ sudo dmesg -T | grep -i -E 'oom|kill'
 
 * Папки с цифрами ( PID процесса ): внутри папки лежит файл ( команда, 
 с которой запустили программу) cmdline, файл status - сколько памяти жрёт
+
+
+
+
