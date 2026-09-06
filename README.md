@@ -96,7 +96,6 @@ sudo choom -n -1000 python3 /home/zxc/Desktop/time_logger.py
 sudo dmesg -T | grep -i -E 'oom|kill'
 ```
 
-=======
 
 # /proc
 
@@ -110,7 +109,6 @@ sudo dmesg -T | grep -i -E 'oom|kill'
 с которой запустили программу) cmdline, файл status - сколько памяти жрёт
 
 
-=======
 ## Декодирование htop
 
 Цифры 1,2,3 - ядра процессора, возле каждого идёт полоса и процент загрузки
